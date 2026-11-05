@@ -12,9 +12,8 @@ from theia2opensim.inverse_kinematics import run_inverse_kinematics
 # Import a trial from the Theia dataset located in the original data path (as defined in
 # the 'config.yaml' file) to a new location in this repository's "data" folder. The
 # paths below are relative to those two locations, respectively.
-original_trial_relpath = os.path.join('ACL Registry CMJ', 'Theia output data',
-                                          'Counter-Movement Jump Markerless 1')
-trial_relpath = os.path.join('acl', 'jump_1')
+original_trial_relpath = os.path.join('Dynamic 1')
+trial_relpath = os.path.join('Dynamic_1')
 import_data(original_trial_relpath, trial_relpath)
 
 # Step 2: Create the generic OpenSim model.
